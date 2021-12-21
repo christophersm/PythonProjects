@@ -7,7 +7,10 @@ workbook = Workbook()
 sheet = workbook.active
 
 sheet["A1"] = "First Name"
+sheet["A2"] = "Christopher"
 sheet["B1"] = "Last Name"
+sheet["B2"] = "Mumma"
 sheet["C1"] = "Address"
+sheet["C2"] = "2847 Oakwood Drive, Harrisburg, PA 17110"
 
 workbook.save(filename="seleniumTestingPython/AddressBook.xlsx")
